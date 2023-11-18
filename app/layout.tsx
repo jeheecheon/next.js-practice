@@ -1,5 +1,5 @@
 import { Inter } from 'next/font/google';
-import { lusitana } from './lib/fonts';
+import { lusitana } from '@/app/ui/fonts'
 import '@/app/lib/global.css';
 
 export const inter = Inter({ subsets: ['latin'], weight: '100' });
